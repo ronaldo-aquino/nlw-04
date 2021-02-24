@@ -5,6 +5,7 @@ import CompletedChallenges from "../components/CompletedChallenges";
 import Countdown from "../components/Countdown";
 
 import Head from "next/head"
+import ChallengeBox from "../components/ChallengeBox";
 
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
           <CompletedChallenges />
           <Countdown />
         </div>
-        <div></div>
+        <div>
+          <ChallengeBox />
+        </div>
       </section>
     </div>
   );
